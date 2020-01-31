@@ -1,0 +1,21 @@
+
+### config general
+info:
+  project:
+    title: Sistema TEST X
+    name: Sistema TEST X
+    description: Sistema TEST X
+    version: 1
+spring:
+  application:
+  profiles.active: dev
+
+### DEV
+---
+spring:
+  application:
+    name: Sistema test X
+  profiles: dev
+server:
+  port: 8081
+
